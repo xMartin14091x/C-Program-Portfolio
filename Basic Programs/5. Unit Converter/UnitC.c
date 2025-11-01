@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     int isCTU1 = -1, isCTU2 = -1;
     double InputVal;
 
-    if(argc > 4) {
+    if(argc != 4) {
         printf("Invalid Input! (From Unit, To Unit, Temp)");
         return 1;
     }
