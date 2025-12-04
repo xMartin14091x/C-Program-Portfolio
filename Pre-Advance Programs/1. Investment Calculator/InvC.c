@@ -567,7 +567,6 @@ int main() {
     }
     
     fprintf(fp, InvestmentBuffer);
-
     fclose(fp);
 
     free(sIp);
